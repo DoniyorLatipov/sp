@@ -1,5 +1,5 @@
 const config = {
-  TOKEN: '7262060722:AAFW-BTOvSasYCkaHa9vBoXxApz_NRquik8',
+  TOKEN: '7142135853:AAG3J2QzEm8qv0FmdVUG9fP8M000qMMZsSM',
   agent: '1484255037',
 };
 
