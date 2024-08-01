@@ -1,3 +1,1 @@
-const getChatId = (msg) => msg.chat.id;
-
-module.exports = getChatId;
+export default (msg) => msg.chat.id;

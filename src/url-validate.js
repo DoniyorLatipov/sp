@@ -1,4 +1,4 @@
-const urlValidate = (string) => {
+export default (string) => {
   try {
     new URL(string);
     return true;
@@ -6,5 +6,3 @@ const urlValidate = (string) => {
     return false;
   }
 };
-
-module.exports = urlValidate;

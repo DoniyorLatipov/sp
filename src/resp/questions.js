@@ -1,4 +1,4 @@
-const respQuestions = [
+export default [
   'Возраст?',
   'Гендерная идентичность?',
   'Предпочтительные местоимения?',
@@ -14,5 +14,3 @@ const respQuestions = [
   'Имеется ли опыт химсекса?',
   'Ваши основные сексуальные фетиши и кинки?',
 ];
-
-module.exports = respQuestions;

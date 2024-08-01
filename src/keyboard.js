@@ -1,8 +1,6 @@
-const btns = require('./keyboard-buttons.js');
+import btns from './keyboard-buttons.js';
 
-const keyboard = {
+export default {
   home: [[btns.home.resp], [btns.home.coop], [btns.home.other]],
   resp: [[btns.resp.confirm, btns.resp.cancel]],
 };
-
-module.exports = keyboard;

@@ -1,4 +1,4 @@
-const coopParseAnswers = (answersObj) => {
+export default (answersObj) => {
   return Object.entries(answersObj)
     .reduce((acc, [question, answer]) => {
       switch (question) {
@@ -14,5 +14,3 @@ const coopParseAnswers = (answersObj) => {
     }, [])
     .join('\n\n');
 };
-
-module.exports = coopParseAnswers;
