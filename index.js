@@ -1,14 +1,14 @@
-import TelegramApi from 'node-telegram-bot-api';
-import config from './src/config.js';
-import btns from './src/keyboard-buttons.js';
-import coopParseAnswers from './src/coop/parse-answers.js';
-import respParseAnswers from './src/resp/parse-answers.js';
-import getChatId from './src/getChatId.js';
-import keyboard from './src/keyboard.js';
-import respQuestions from './src/resp/questions.js';
-import coopQuestions from './src/coop/questions.js';
-import urlValidate from './src/url-validate.js';
-import _ from 'lodash';
+const TelegramApi = require('node-telegram-bot-api');
+const config = require('./src/config.js');
+const btns = require('./src/keyboard-buttons.js');
+const coopParseAnswers = require('./src/coop/parse-answers.js');
+const respParseAnswers = require('./src/resp/parse-answers.js');
+const getChatId = require('./src/getChatId.js');
+const keyboard = require('./src/keyboard.js');
+const respQuestions = require('./src/resp/questions.js');
+const coopQuestions = require('./src/coop/questions.js');
+const urlValidate = require('./src/url-validate.js');
+const _ = require('lodash');
 
 const bot = new TelegramApi(config.TOKEN, { polling: true });
 
